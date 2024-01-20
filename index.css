@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    display: grid;
+    place-items:center;
+    align-items: center;
+    margin-top: 4rem;
+   
+}
+.container{
+    height:30rem;
+    width: 25rem;
+    box-shadow: 0 0 16px 0 black;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url('bg.jpg');
+}
+#searchButton{
+    margin-left: -30px;
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    margin-top: 30px;
+    cursor: pointer;
+}
+input{
+    margin: 18px 0 0 52px;
+    width: 310px;
+    height: 35px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue inset;
+}
+.Weather{
+    height: 10rem ;
+    width: 10rem;
+    background-size: cover;
+    
+
+}
+.temp{    left: 40rem;
+    font-size: 50px;
+    position: absolute;
+    top: 190px;
+    margin: 0 0 0 0;
+}
+.state{    font-weight: bolder;
+    font-size: 4rem;
+}
+.state_container{
+    text-align: center;
+    width: 398px;
+    height: 64px;
+    position: absolute;
+    top: 15rem;
+   
+}
+.humidity{
+    font-size: 24px;
+    left: 35rem;
+    top: 28.7rem;
+    position: absolute;
+    color: aliceblue;
+}
+.h_name{
+    font-size: 15px;
+    left: 35rem;
+    top: 30.5rem;
+    position: absolute;
+    color: aliceblue;
+}
+.wind{
+    font-size: 24px;
+    left: 45rem;
+    top: 28.7rem;
+    position: absolute;
+    color: aliceblue;
+}
+.w_name{
+    font-size: 15px;
+    left: 45rem;
+    top: 30.5rem;
+    position: absolute;
+    color: aliceblue;
+}
+.state2{        color: rgb(63, 68, 63);
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.state_container2{
+    text-align: center;
+    width: 398px;
+    height: 64px;
+    position: absolute;
+    top: 20rem;
+   
+}
+.h_icon{
+    left: 35.5rem;
+    top: 26.5rem;
+    position: absolute;
+}
+.w_icon{
+    left: 46.5rem;
+    top: 26.5rem;
+    position: absolute;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .background{
+        margin: 2rem;
+    }
+    .container{
+        height: 103rem;
+    width: 55rem;
+    border-radius: 50px;
+    }
+    input{
+        width: 770px;
+    height: 100px;
+    border-radius: 50px;
+	font-size:70px;
+    }
+    .w_name{    font-size: 80px;
+        left: 20rem;
+        top: 92.5rem;}
+     .wind{    font-size: 120px;
+        left: 18rem;
+        top: 83.7rem;}   
+
+.w_icon{
+    font-size: 5rem;
+    left: 27.5rem;
+    top: 75.5rem;
+}
+.h_icon{
+    font-size: 5rem;
+    left: 28.5rem;
+    top: 45.5rem;
+}
+.h_name{
+    font-size: 80px;
+    left: 23rem;
+    top: 63.5rem;
+}
+.humidity{
+    font-size: 120px;
+    left: 26rem;
+    top: 54.7rem;
+}
+.state_container2{
+    width: 872px;
+    height: 102px;
+    top: 30rem;
+}
+.state2{
+    font-size: 9rem;
+}
+.state_container{
+    width: 870px;
+    height: 64px;
+    top: 21rem;
+}
+.state{
+    font-size: 10rem;
+}
+.temp{    left: 25rem;
+    font-size: 105px;
+    top: 207px;}
+   #searchButton{
+     margin-left: -98px;
+    margin-top: 46px;
+    font-size: 39px;
+    }
+}
